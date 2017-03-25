@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11542" systemVersion="15G1217" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--reSYNC-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="reSYNC" backgroundImage="Background" hidesWhenLoading="NO" alwaysBounce="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="RUN_DA_BEAT_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="130" height="151" alignment="center" verticalAlignment="center" id="G3e-j7-zoZ">
+                            <items>
+                                <imageView width="1" height="1" alignment="left" image="Icon-512" id="fer-e5-iQ0"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="gW3-Pp-ItH" kind="relationship" relationship="nextPage" id="MW0-4C-waD"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="219.69230769230771" y="351.76923076923077"/>
+        </scene>
+        <!--Page 2-->
+        <scene sceneID="fry-Ub-MYK">
+            <objects>
+                <controller identifier="Page 2" backgroundImage="Watch - Page 2" hidesWhenLoading="NO" alwaysBounce="YES" id="gW3-Pp-ItH">
+                    <items>
+                        <group width="130" height="174" alignment="center" id="e31-Q5-nV3">
+                            <items>
+                                <label height="177" alignment="left" verticalAlignment="center" text="84" id="erN-XR-Ssd">
+                                    <color key="textColor" red="0.14509803921568626" green="0.87058823529411766" blue="0.14509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="75"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.99196457541411009" green="1" blue="0.73192559250724043" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <segue destination="aDH-MY-IFa" kind="relationship" relationship="nextPage" id="ouI-zB-bXd"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="466.41025641025647" y="351.76923076923077"/>
+        </scene>
+        <!--Page 3-->
+        <scene sceneID="0Hb-Sj-0hO">
+            <objects>
+                <controller identifier="Page 3" backgroundImage="Background" hidesWhenLoading="NO" alwaysBounce="YES" id="aDH-MY-IFa">
+                    <items>
+                        <group width="155" height="61" alignment="center" verticalAlignment="center" id="KBL-Yt-QXW">
+                            <items>
+                                <group width="54" height="55" alignment="left" id="fbO-5i-ODp">
+                                    <items>
+                                        <button width="36" alignment="center" verticalAlignment="center" backgroundImage="rewind - material" id="ZuT-UX-ZSI"/>
+                                    </items>
+                                </group>
+                                <group width="59" height="53" alignment="left" id="cTg-w9-wAN">
+                                    <items>
+                                        <button width="52" height="53" alignment="center" verticalAlignment="center" backgroundImage="play" id="luG-W0-1uK"/>
+                                    </items>
+                                </group>
+                                <group width="36" height="55" alignment="center" id="N67-xn-KeC">
+                                    <items>
+                                        <button width="36" alignment="center" verticalAlignment="center" backgroundImage="fast_forward - material" id="T71-cj-WLH"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="1TO-mh-KBG" kind="relationship" relationship="nextPage" id="KTU-Cv-2EN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="722.71794871794873" y="351.76923076923077"/>
+        </scene>
+        <!--Page 4-->
+        <scene sceneID="gT0-w4-xx6">
+            <objects>
+                <controller identifier="Page 4" backgroundImage="Background" hidesWhenLoading="NO" alwaysBounce="YES" id="1TO-mh-KBG">
+                    <items>
+                        <group width="138" height="30" alignment="center" verticalAlignment="bottom" id="keO-cB-mkD">
+                            <items>
+                                <label alignment="center" text="left in workout" id="pld-Hs-BI0"/>
+                            </items>
+                        </group>
+                        <group width="154" height="114" alignment="left" id="RlS-Dy-Twj">
+                            <items>
+                                <group width="156" height="119" alignment="left" id="g8R-VV-kcc">
+                                    <items>
+                                        <timer alignment="left" numberOfLines="2" format="short" id="cV1-vc-kN2">
+                                            <color key="textColor" red="0.1450980392" green="0.87058823529999996" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="47"/>
+                                        </timer>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1008.6666666666667" y="351.76923076923077"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="RUN_DA_BEAT_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.74929242012908848" green="1" blue="0.72651345287245483" alpha="1" colorSpace="calibratedRGB"/>
+</document>

@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65490CB61E861D59004EB6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65490CB51E861D59004EB6D0 /* AppDelegate.swift */; };
+		65490CB81E861D59004EB6D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65490CB71E861D59004EB6D0 /* ViewController.swift */; };
+		65490CBB1E861D59004EB6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65490CB91E861D59004EB6D0 /* Main.storyboard */; };
+		65490CBD1E861D59004EB6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65490CBC1E861D59004EB6D0 /* Assets.xcassets */; };
+		65490CC01E861D59004EB6D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65490CBE1E861D59004EB6D0 /* LaunchScreen.storyboard */; };
+		65490CCB1E861D59004EB6D0 /* RUN_DA_BEATTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65490CCA1E861D59004EB6D0 /* RUN_DA_BEATTests.swift */; };
+		65490CD61E861D59004EB6D0 /* RUN_DA_BEATUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65490CD51E861D59004EB6D0 /* RUN_DA_BEATUITests.swift */; };
+		65490CDB1E861D59004EB6D0 /* RUN DA BEAT WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 65490CDA1E861D59004EB6D0 /* RUN DA BEAT WatchKit App.app */; };
+		65490CE11E861D59004EB6D0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65490CDF1E861D59004EB6D0 /* Interface.storyboard */; };
+		65490CE31E861D59004EB6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65490CE21E861D59004EB6D0 /* Assets.xcassets */; };
+		65490CEA1E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 65490CE91E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		65490CF11E861D59004EB6D0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65490CF01E861D59004EB6D0 /* InterfaceController.swift */; };
+		65490CF31E861D59004EB6D0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65490CF21E861D59004EB6D0 /* ExtensionDelegate.swift */; };
+		65490CF51E861D59004EB6D0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65490CF41E861D59004EB6D0 /* NotificationController.swift */; };
+		65490CF71E861D59004EB6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65490CF61E861D59004EB6D0 /* Assets.xcassets */; };
+		65490D0F1E862894004EB6D0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65490D0E1E862894004EB6D0 /* HealthKit.framework */; };
+		65490D141E866E9D004EB6D0 /* ezgif.com-gif-maker.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65490D131E866E9D004EB6D0 /* ezgif.com-gif-maker.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65490CC71E861D59004EB6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65490CAA1E861D59004EB6D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65490CB11E861D59004EB6D0;
+			remoteInfo = "RUN DA BEAT";
+		};
+		65490CD21E861D59004EB6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65490CAA1E861D59004EB6D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65490CB11E861D59004EB6D0;
+			remoteInfo = "RUN DA BEAT";
+		};
+		65490CDC1E861D59004EB6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65490CAA1E861D59004EB6D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65490CD91E861D59004EB6D0;
+			remoteInfo = "RUN DA BEAT WatchKit App";
+		};
+		65490CEB1E861D59004EB6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65490CAA1E861D59004EB6D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65490CE81E861D59004EB6D0;
+			remoteInfo = "RUN DA BEAT WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65490CFE1E861D59004EB6D0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				65490CEA1E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490D021E861D59004EB6D0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				65490CDB1E861D59004EB6D0 /* RUN DA BEAT WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65490CB21E861D59004EB6D0 /* RUN DA BEAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RUN DA BEAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65490CB51E861D59004EB6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65490CB71E861D59004EB6D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65490CBA1E861D59004EB6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65490CBC1E861D59004EB6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65490CBF1E861D59004EB6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65490CC11E861D59004EB6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65490CC61E861D59004EB6D0 /* RUN DA BEATTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RUN DA BEATTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65490CCA1E861D59004EB6D0 /* RUN_DA_BEATTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUN_DA_BEATTests.swift; sourceTree = "<group>"; };
+		65490CCC1E861D59004EB6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65490CD11E861D59004EB6D0 /* RUN DA BEATUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RUN DA BEATUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65490CD51E861D59004EB6D0 /* RUN_DA_BEATUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUN_DA_BEATUITests.swift; sourceTree = "<group>"; };
+		65490CD71E861D59004EB6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65490CDA1E861D59004EB6D0 /* RUN DA BEAT WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RUN DA BEAT WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65490CE01E861D59004EB6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		65490CE21E861D59004EB6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65490CE41E861D59004EB6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65490CE91E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RUN DA BEAT WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65490CEF1E861D59004EB6D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		65490CF01E861D59004EB6D0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		65490CF21E861D59004EB6D0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		65490CF41E861D59004EB6D0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		65490CF61E861D59004EB6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65490CF81E861D59004EB6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65490D0C1E862894004EB6D0 /* RUN DA BEAT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "RUN DA BEAT.entitlements"; sourceTree = "<group>"; };
+		65490D0E1E862894004EB6D0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		65490D131E866E9D004EB6D0 /* ezgif.com-gif-maker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "ezgif.com-gif-maker.gif"; path = "../../../../Downloads/ezgif.com-gif-maker.gif"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65490CAF1E861D59004EB6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65490D0F1E862894004EB6D0 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490CC31E861D59004EB6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490CCE1E861D59004EB6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490CE61E861D59004EB6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65490CA91E861D59004EB6D0 = {
+			isa = PBXGroup;
+			children = (
+				65490CB41E861D59004EB6D0 /* RUN DA BEAT */,
+				65490CC91E861D59004EB6D0 /* RUN DA BEATTests */,
+				65490CD41E861D59004EB6D0 /* RUN DA BEATUITests */,
+				65490CDE1E861D59004EB6D0 /* RUN DA BEAT WatchKit App */,
+				65490CED1E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension */,
+				65490CB31E861D59004EB6D0 /* Products */,
+				65490D0D1E862894004EB6D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65490CB31E861D59004EB6D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65490CB21E861D59004EB6D0 /* RUN DA BEAT.app */,
+				65490CC61E861D59004EB6D0 /* RUN DA BEATTests.xctest */,
+				65490CD11E861D59004EB6D0 /* RUN DA BEATUITests.xctest */,
+				65490CDA1E861D59004EB6D0 /* RUN DA BEAT WatchKit App.app */,
+				65490CE91E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65490CB41E861D59004EB6D0 /* RUN DA BEAT */ = {
+			isa = PBXGroup;
+			children = (
+				65490D131E866E9D004EB6D0 /* ezgif.com-gif-maker.gif */,
+				65490D0C1E862894004EB6D0 /* RUN DA BEAT.entitlements */,
+				65490CB51E861D59004EB6D0 /* AppDelegate.swift */,
+				65490CB71E861D59004EB6D0 /* ViewController.swift */,
+				65490CB91E861D59004EB6D0 /* Main.storyboard */,
+				65490CBC1E861D59004EB6D0 /* Assets.xcassets */,
+				65490CBE1E861D59004EB6D0 /* LaunchScreen.storyboard */,
+				65490CC11E861D59004EB6D0 /* Info.plist */,
+			);
+			path = "RUN DA BEAT";
+			sourceTree = "<group>";
+		};
+		65490CC91E861D59004EB6D0 /* RUN DA BEATTests */ = {
+			isa = PBXGroup;
+			children = (
+				65490CCA1E861D59004EB6D0 /* RUN_DA_BEATTests.swift */,
+				65490CCC1E861D59004EB6D0 /* Info.plist */,
+			);
+			path = "RUN DA BEATTests";
+			sourceTree = "<group>";
+		};
+		65490CD41E861D59004EB6D0 /* RUN DA BEATUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65490CD51E861D59004EB6D0 /* RUN_DA_BEATUITests.swift */,
+				65490CD71E861D59004EB6D0 /* Info.plist */,
+			);
+			path = "RUN DA BEATUITests";
+			sourceTree = "<group>";
+		};
+		65490CDE1E861D59004EB6D0 /* RUN DA BEAT WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				65490D101E862F3A004EB6D0 /* New Group */,
+				65490CE21E861D59004EB6D0 /* Assets.xcassets */,
+				65490CE41E861D59004EB6D0 /* Info.plist */,
+			);
+			path = "RUN DA BEAT WatchKit App";
+			sourceTree = "<group>";
+		};
+		65490CED1E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				65490CF01E861D59004EB6D0 /* InterfaceController.swift */,
+				65490CF21E861D59004EB6D0 /* ExtensionDelegate.swift */,
+				65490CF41E861D59004EB6D0 /* NotificationController.swift */,
+				65490CF61E861D59004EB6D0 /* Assets.xcassets */,
+				65490CF81E861D59004EB6D0 /* Info.plist */,
+				65490CEE1E861D59004EB6D0 /* Supporting Files */,
+			);
+			path = "RUN DA BEAT WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		65490CEE1E861D59004EB6D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65490CEF1E861D59004EB6D0 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65490D0D1E862894004EB6D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65490D0E1E862894004EB6D0 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65490D101E862F3A004EB6D0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				65490CDF1E861D59004EB6D0 /* Interface.storyboard */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65490CB11E861D59004EB6D0 /* RUN DA BEAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65490D031E861D59004EB6D0 /* Build configuration list for PBXNativeTarget "RUN DA BEAT" */;
+			buildPhases = (
+				65490CAE1E861D59004EB6D0 /* Sources */,
+				65490CAF1E861D59004EB6D0 /* Frameworks */,
+				65490CB01E861D59004EB6D0 /* Resources */,
+				65490D021E861D59004EB6D0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65490CDD1E861D59004EB6D0 /* PBXTargetDependency */,
+			);
+			name = "RUN DA BEAT";
+			productName = "RUN DA BEAT";
+			productReference = 65490CB21E861D59004EB6D0 /* RUN DA BEAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65490CC51E861D59004EB6D0 /* RUN DA BEATTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65490D061E861D59004EB6D0 /* Build configuration list for PBXNativeTarget "RUN DA BEATTests" */;
+			buildPhases = (
+				65490CC21E861D59004EB6D0 /* Sources */,
+				65490CC31E861D59004EB6D0 /* Frameworks */,
+				65490CC41E861D59004EB6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65490CC81E861D59004EB6D0 /* PBXTargetDependency */,
+			);
+			name = "RUN DA BEATTests";
+			productName = "RUN DA BEATTests";
+			productReference = 65490CC61E861D59004EB6D0 /* RUN DA BEATTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65490CD01E861D59004EB6D0 /* RUN DA BEATUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65490D091E861D59004EB6D0 /* Build configuration list for PBXNativeTarget "RUN DA BEATUITests" */;
+			buildPhases = (
+				65490CCD1E861D59004EB6D0 /* Sources */,
+				65490CCE1E861D59004EB6D0 /* Frameworks */,
+				65490CCF1E861D59004EB6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65490CD31E861D59004EB6D0 /* PBXTargetDependency */,
+			);
+			name = "RUN DA BEATUITests";
+			productName = "RUN DA BEATUITests";
+			productReference = 65490CD11E861D59004EB6D0 /* RUN DA BEATUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		65490CD91E861D59004EB6D0 /* RUN DA BEAT WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65490CFF1E861D59004EB6D0 /* Build configuration list for PBXNativeTarget "RUN DA BEAT WatchKit App" */;
+			buildPhases = (
+				65490CD81E861D59004EB6D0 /* Resources */,
+				65490CFE1E861D59004EB6D0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65490CEC1E861D59004EB6D0 /* PBXTargetDependency */,
+			);
+			name = "RUN DA BEAT WatchKit App";
+			productName = "RUN DA BEAT WatchKit App";
+			productReference = 65490CDA1E861D59004EB6D0 /* RUN DA BEAT WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		65490CE81E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65490CFB1E861D59004EB6D0 /* Build configuration list for PBXNativeTarget "RUN DA BEAT WatchKit Extension" */;
+			buildPhases = (
+				65490CE51E861D59004EB6D0 /* Sources */,
+				65490CE61E861D59004EB6D0 /* Frameworks */,
+				65490CE71E861D59004EB6D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RUN DA BEAT WatchKit Extension";
+			productName = "RUN DA BEAT WatchKit Extension";
+			productReference = 65490CE91E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65490CAA1E861D59004EB6D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sportify, INC.";
+				TargetAttributes = {
+					65490CB11E861D59004EB6D0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 88T5NJY6M6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					65490CC51E861D59004EB6D0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 88T5NJY6M6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65490CB11E861D59004EB6D0;
+					};
+					65490CD01E861D59004EB6D0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 88T5NJY6M6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65490CB11E861D59004EB6D0;
+					};
+					65490CD91E861D59004EB6D0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 88T5NJY6M6;
+						ProvisioningStyle = Automatic;
+					};
+					65490CE81E861D59004EB6D0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 88T5NJY6M6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65490CAD1E861D59004EB6D0 /* Build configuration list for PBXProject "RUN DA BEAT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65490CA91E861D59004EB6D0;
+			productRefGroup = 65490CB31E861D59004EB6D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65490CB11E861D59004EB6D0 /* RUN DA BEAT */,
+				65490CC51E861D59004EB6D0 /* RUN DA BEATTests */,
+				65490CD01E861D59004EB6D0 /* RUN DA BEATUITests */,
+				65490CD91E861D59004EB6D0 /* RUN DA BEAT WatchKit App */,
+				65490CE81E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65490CB01E861D59004EB6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65490CC01E861D59004EB6D0 /* LaunchScreen.storyboard in Resources */,
+				65490D141E866E9D004EB6D0 /* ezgif.com-gif-maker.gif in Resources */,
+				65490CBD1E861D59004EB6D0 /* Assets.xcassets in Resources */,
+				65490CBB1E861D59004EB6D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490CC41E861D59004EB6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490CCF1E861D59004EB6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490CD81E861D59004EB6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65490CE31E861D59004EB6D0 /* Assets.xcassets in Resources */,
+				65490CE11E861D59004EB6D0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490CE71E861D59004EB6D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65490CF71E861D59004EB6D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65490CAE1E861D59004EB6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65490CB81E861D59004EB6D0 /* ViewController.swift in Sources */,
+				65490CB61E861D59004EB6D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490CC21E861D59004EB6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65490CCB1E861D59004EB6D0 /* RUN_DA_BEATTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490CCD1E861D59004EB6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65490CD61E861D59004EB6D0 /* RUN_DA_BEATUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65490CE51E861D59004EB6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65490CF51E861D59004EB6D0 /* NotificationController.swift in Sources */,
+				65490CF31E861D59004EB6D0 /* ExtensionDelegate.swift in Sources */,
+				65490CF11E861D59004EB6D0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65490CC81E861D59004EB6D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65490CB11E861D59004EB6D0 /* RUN DA BEAT */;
+			targetProxy = 65490CC71E861D59004EB6D0 /* PBXContainerItemProxy */;
+		};
+		65490CD31E861D59004EB6D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65490CB11E861D59004EB6D0 /* RUN DA BEAT */;
+			targetProxy = 65490CD21E861D59004EB6D0 /* PBXContainerItemProxy */;
+		};
+		65490CDD1E861D59004EB6D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65490CD91E861D59004EB6D0 /* RUN DA BEAT WatchKit App */;
+			targetProxy = 65490CDC1E861D59004EB6D0 /* PBXContainerItemProxy */;
+		};
+		65490CEC1E861D59004EB6D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65490CE81E861D59004EB6D0 /* RUN DA BEAT WatchKit Extension */;
+			targetProxy = 65490CEB1E861D59004EB6D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65490CB91E861D59004EB6D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65490CBA1E861D59004EB6D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65490CBE1E861D59004EB6D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65490CBF1E861D59004EB6D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65490CDF1E861D59004EB6D0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65490CE01E861D59004EB6D0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65490CF91E861D59004EB6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65490CFA1E861D59004EB6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65490CFC1E861D59004EB6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 88T5NJY6M6;
+				INFOPLIST_FILE = "RUN DA BEAT WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SPORTIFY.RUN-DA-BEAT.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		65490CFD1E861D59004EB6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 88T5NJY6M6;
+				INFOPLIST_FILE = "RUN DA BEAT WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SPORTIFY.RUN-DA-BEAT.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		65490D001E861D59004EB6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88T5NJY6M6;
+				IBSC_MODULE = RUN_DA_BEAT_WatchKit_Extension;
+				INFOPLIST_FILE = "RUN DA BEAT WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "SPORTIFY.RUN-DA-BEAT.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		65490D011E861D59004EB6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88T5NJY6M6;
+				IBSC_MODULE = RUN_DA_BEAT_WatchKit_Extension;
+				INFOPLIST_FILE = "RUN DA BEAT WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "SPORTIFY.RUN-DA-BEAT.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		65490D041E861D59004EB6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RUN DA BEAT/RUN DA BEAT.entitlements";
+				DEVELOPMENT_TEAM = 88T5NJY6M6;
+				INFOPLIST_FILE = "RUN DA BEAT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SPORTIFY.RUN-DA-BEAT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		65490D051E861D59004EB6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RUN DA BEAT/RUN DA BEAT.entitlements";
+				DEVELOPMENT_TEAM = 88T5NJY6M6;
+				INFOPLIST_FILE = "RUN DA BEAT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SPORTIFY.RUN-DA-BEAT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		65490D071E861D59004EB6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 88T5NJY6M6;
+				INFOPLIST_FILE = "RUN DA BEATTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SPORTIFY.RUN-DA-BEATTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RUN DA BEAT.app/RUN DA BEAT";
+			};
+			name = Debug;
+		};
+		65490D081E861D59004EB6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 88T5NJY6M6;
+				INFOPLIST_FILE = "RUN DA BEATTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SPORTIFY.RUN-DA-BEATTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RUN DA BEAT.app/RUN DA BEAT";
+			};
+			name = Release;
+		};
+		65490D0A1E861D59004EB6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 88T5NJY6M6;
+				INFOPLIST_FILE = "RUN DA BEATUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SPORTIFY.RUN-DA-BEATUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "RUN DA BEAT";
+			};
+			name = Debug;
+		};
+		65490D0B1E861D59004EB6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 88T5NJY6M6;
+				INFOPLIST_FILE = "RUN DA BEATUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SPORTIFY.RUN-DA-BEATUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "RUN DA BEAT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65490CAD1E861D59004EB6D0 /* Build configuration list for PBXProject "RUN DA BEAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65490CF91E861D59004EB6D0 /* Debug */,
+				65490CFA1E861D59004EB6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65490CFB1E861D59004EB6D0 /* Build configuration list for PBXNativeTarget "RUN DA BEAT WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65490CFC1E861D59004EB6D0 /* Debug */,
+				65490CFD1E861D59004EB6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65490CFF1E861D59004EB6D0 /* Build configuration list for PBXNativeTarget "RUN DA BEAT WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65490D001E861D59004EB6D0 /* Debug */,
+				65490D011E861D59004EB6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65490D031E861D59004EB6D0 /* Build configuration list for PBXNativeTarget "RUN DA BEAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65490D041E861D59004EB6D0 /* Debug */,
+				65490D051E861D59004EB6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65490D061E861D59004EB6D0 /* Build configuration list for PBXNativeTarget "RUN DA BEATTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65490D071E861D59004EB6D0 /* Debug */,
+				65490D081E861D59004EB6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65490D091E861D59004EB6D0 /* Build configuration list for PBXNativeTarget "RUN DA BEATUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65490D0A1E861D59004EB6D0 /* Debug */,
+				65490D0B1E861D59004EB6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65490CAA1E861D59004EB6D0 /* Project object */;
+}
