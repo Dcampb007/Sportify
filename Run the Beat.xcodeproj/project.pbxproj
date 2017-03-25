@@ -20,6 +20,12 @@
 		3CDE36021E85E7EB00415CB1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE36011E85E7EB00415CB1 /* ExtensionDelegate.swift */; };
 		3CDE36041E85E7EB00415CB1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE36031E85E7EB00415CB1 /* NotificationController.swift */; };
 		3CDE36061E85E7EB00415CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDE36051E85E7EB00415CB1 /* Assets.xcassets */; };
+		3CDE36161E8637ED00415CB1 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE36151E8637ED00415CB1 /* Page1ViewController.swift */; };
+		3CDE36181E864EC500415CB1 /* GenreViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE36171E864EC500415CB1 /* GenreViewCell.swift */; };
+		3CDE361A1E864F0C00415CB1 /* GenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE36191E864F0C00415CB1 /* GenresViewController.swift */; };
+		3CDE361C1E86CECF00415CB1 /* IntensityPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE361B1E86CECF00415CB1 /* IntensityPageViewController.swift */; };
+		3CDE361E1E86D6D300415CB1 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE361D1E86D6D300415CB1 /* MusicViewController.swift */; };
+		3CDE36211E86D79F00415CB1 /* Future - Mask Off (Audio).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CDE36201E86D79F00415CB1 /* Future - Mask Off (Audio).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +89,12 @@
 		3CDE36031E85E7EB00415CB1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		3CDE36051E85E7EB00415CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CDE36071E85E7EB00415CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDE36151E8637ED00415CB1 /* Page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		3CDE36171E864EC500415CB1 /* GenreViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreViewCell.swift; sourceTree = "<group>"; };
+		3CDE36191E864F0C00415CB1 /* GenresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenresViewController.swift; sourceTree = "<group>"; };
+		3CDE361B1E86CECF00415CB1 /* IntensityPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityPageViewController.swift; sourceTree = "<group>"; };
+		3CDE361D1E86D6D300415CB1 /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		3CDE36201E86D79F00415CB1 /* Future - Mask Off (Audio).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Future - Mask Off (Audio).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +144,12 @@
 				3CDE35E11E85E7EA00415CB1 /* Assets.xcassets */,
 				3CDE35E31E85E7EA00415CB1 /* LaunchScreen.storyboard */,
 				3CDE35E61E85E7EA00415CB1 /* Info.plist */,
+				3CDE36151E8637ED00415CB1 /* Page1ViewController.swift */,
+				3CDE361F1E86D78D00415CB1 /* Music */,
+				3CDE36171E864EC500415CB1 /* GenreViewCell.swift */,
+				3CDE36191E864F0C00415CB1 /* GenresViewController.swift */,
+				3CDE361B1E86CECF00415CB1 /* IntensityPageViewController.swift */,
+				3CDE361D1E86D6D300415CB1 /* MusicViewController.swift */,
 			);
 			path = "Run the Beat";
 			sourceTree = "<group>";
@@ -165,6 +183,14 @@
 				3CDE35FE1E85E7EB00415CB1 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CDE361F1E86D78D00415CB1 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				3CDE36201E86D79F00415CB1 /* Future - Mask Off (Audio).mp3 */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CDE35E51E85E7EA00415CB1 /* LaunchScreen.storyboard in Resources */,
+				3CDE36211E86D79F00415CB1 /* Future - Mask Off (Audio).mp3 in Resources */,
 				3CDE35E21E85E7EA00415CB1 /* Assets.xcassets in Resources */,
 				3CDE35E01E85E7EA00415CB1 /* Main.storyboard in Resources */,
 			);
@@ -305,8 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CDE361A1E864F0C00415CB1 /* GenresViewController.swift in Sources */,
+				3CDE361E1E86D6D300415CB1 /* MusicViewController.swift in Sources */,
+				3CDE36161E8637ED00415CB1 /* Page1ViewController.swift in Sources */,
 				3CDE35DD1E85E7EA00415CB1 /* ViewController.swift in Sources */,
+				3CDE36181E864EC500415CB1 /* GenreViewCell.swift in Sources */,
 				3CDE35DB1E85E7EA00415CB1 /* AppDelegate.swift in Sources */,
+				3CDE361C1E86CECF00415CB1 /* IntensityPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +601,7 @@
 				3CDE360C1E85E7EB00415CB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CDE360E1E85E7EB00415CB1 /* Build configuration list for PBXNativeTarget "Run the Beat WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +610,7 @@
 				3CDE36101E85E7EB00415CB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CDE36121E85E7EB00415CB1 /* Build configuration list for PBXNativeTarget "Run the Beat" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +619,7 @@
 				3CDE36141E85E7EB00415CB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
